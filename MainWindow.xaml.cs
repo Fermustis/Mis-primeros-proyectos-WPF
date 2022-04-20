@@ -24,5 +24,10 @@ namespace _2do_Parcial_LanzadorGeneral_GZF_12
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("WPFGonzalez Zamora.exe");
+        }
     }
 }

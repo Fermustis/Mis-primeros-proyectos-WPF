@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2do_Parcial_LanzadorGeneral_GZF_12"
         mc:Ignorable="d"
-        Title="Lanzador General " FontStyle="Normal"  Height="540" Width="960">
+        Title="Lanzador General " FontStyle="Normal" Background="Azure" Height="540" Width="960">
     <Grid>
         <StackPanel>
             <Menu x:Name="Menu" Height="20" Background="#FF091C56">
                 <MenuItem Header="Archivo" FontWeight="Bold" FontSize="14" Background="#FF46D0DA" Foreground="#FF933DC7">
-                    <MenuItem Header="Firma"/>
+                    <MenuItem Header="Firma" Click="MenuItem_Click"/>
                 </MenuItem>
             </Menu>
-            <Grid x:Name="grid" Height="500">
+            <Grid x:Name="grid" Height="503">
                 <Grid.Background>
                     <ImageBrush ImageSource="/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg" TileMode="Tile" Stretch="UniformToFill"/>
                 </Grid.Background>
@@ -26,9 +26,9 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Button Content="Practicas" FontSize="36"  HorizontalAlignment="Center" Height="83" Margin="0,71,0,0" VerticalAlignment="Top" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True"/>
-                <Button Content="Examen" FontSize="36"  HorizontalAlignment="Left" Height="82" Margin="120,0,0,0" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1"/>
-                <Button Content="Apuntes" FontSize="36"  HorizontalAlignment="Center" Height="82" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Row="1"/>
-                <Button Content="Proyectos" FontSize="36"  HorizontalAlignment="Left" Height="83" Margin="120,0,0,0" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1" Grid.Row="1"/>
+                <Button Content="Examen" FontSize="36"  HorizontalAlignment="Center" Height="82" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Row="1"/>
+                <Button Content="Apuntes" FontSize="36"  HorizontalAlignment="Center" Height="82" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1" Grid.Row="1"/>
+                <Button Content="Proyectos" FontSize="36"  HorizontalAlignment="Center" Height="83" Margin="0,71,0,0" VerticalAlignment="Top" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1"/>
             </Grid>
         </StackPanel>
 
