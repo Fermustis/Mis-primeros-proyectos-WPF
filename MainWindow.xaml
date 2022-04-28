@@ -25,10 +25,10 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Button Content="Practicas" FontSize="36"  HorizontalAlignment="Center" Height="83" Margin="0,71,0,0" VerticalAlignment="Top" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True"/>
-                <Button Content="Examen" FontSize="36"  HorizontalAlignment="Center" Height="82" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Row="1"/>
-                <Button Content="Apuntes" FontSize="36"  HorizontalAlignment="Center" Height="82" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1" Grid.Row="1"/>
-                <Button Content="Proyectos" FontSize="36"  HorizontalAlignment="Center" Height="83" Margin="0,71,0,0" VerticalAlignment="Top" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1"/>
+                <Button x:Name="botonPracticas" Content="Practicas" FontSize="36"  HorizontalAlignment="Center" Height="83" Margin="0,71,0,0" VerticalAlignment="Top" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Click="botonPracticas_Click"/>
+                <Button x:Name="botonExamen" Content="Examen" FontSize="36"  HorizontalAlignment="Center" Height="82" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Row="1" Click="botonExamen_Click"/>
+                <Button x:Name="botonApuntes" Content="Apuntes" FontSize="36"  HorizontalAlignment="Center" Height="82" VerticalAlignment="Center" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1" Grid.Row="1" Click="botonApuntes_Click"/>
+                <Button x:Name="botonProyectos" Content="Proyectos" FontSize="36"  HorizontalAlignment="Center" Height="83" Margin="0,71,0,0" VerticalAlignment="Top" Width="220" Background="#FF0BD9DE" FontFamily="Elephant" AutomationProperties.IsRowHeader="True" Grid.Column="1" Click="botonProyectos_Click"/>
             </Grid>
         </StackPanel>
 

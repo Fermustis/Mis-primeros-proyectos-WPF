@@ -29,5 +29,26 @@ namespace _2do_Parcial_LanzadorGeneral_GZF_12
         {
             System.Diagnostics.Process.Start("WPFGonzalez Zamora.exe");
         }
+
+        private void botonPracticas_Click(object sender, RoutedEventArgs e)
+        {
+            Practicas practicas = new Practicas();
+            practicas.Show();
+        }
+
+        private void botonProyectos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonExamen_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void botonApuntes_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

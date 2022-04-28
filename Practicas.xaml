@@ -1,0 +1,38 @@
+﻿<Window x:Name="practicas" x:Class="_2do_Parcial_LanzadorGeneral_GZF_12.Practicas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2do_Parcial_LanzadorGeneral_GZF_12"
+        mc:Ignorable="d"
+        Title="Practicas" Height="515" Width="1040">
+    <Grid>
+        <StackPanel>
+            <Menu x:Name="Menu" Height="20" Background="#FF091C56">
+                <MenuItem Header="Archivo" FontWeight="Bold" FontSize="14" Background="#FF46D0DA" Foreground="#FF933DC7">
+                    <MenuItem x:Name="firma" Header="Firma" Click="MenuItem_Click"/>
+                </MenuItem>
+            </Menu>
+            <Grid Height="479" Width="1040" Background="#FF22233A">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Frame x:Name="frame1" Grid.Column="1" Height="450" Width="800"  Content="Frame" Margin="20,14,20,15"  />
+                <Button x:Name="_070322" Content="07/03/2022" HorizontalAlignment="Left" Height="25" Margin="40,19,0,0" VerticalAlignment="Top" Width="105" Background="#FF27E64D" FontFamily="Verdana" FontSize="14" Click="_070322_Click"/>
+                <Button x:Name="_080322" Content="08/03/2022" HorizontalAlignment="Left" Height="25" Margin="40,59,0,0" VerticalAlignment="Top" Width="105" Background="#FF27E64D" FontFamily="Verdana" FontSize="14" Click="_080322_Click"/>
+                <Button x:Name="_100322_Copy" Content="10/03/2022" HorizontalAlignment="Left" Height="25" Margin="40,99,0,0" VerticalAlignment="Top" Width="105" Background="#FF27E64D" FontFamily="Verdana" FontSize="14" Click="_100322"/>
+                <Button x:Name="_150322" Content="15/03/2022" HorizontalAlignment="Left" Height="25" Margin="40,139,0,0" VerticalAlignment="Top" Width="105" Background="#FF27E64D" FontFamily="Verdana" FontSize="14" Click="_150322_Click"/>
+                <Button x:Name="_170322" Content="17/03/2022" HorizontalAlignment="Left" Height="25" Margin="40,179,0,0" VerticalAlignment="Top" Width="105" Background="#FF27E64D" FontFamily="Verdana" FontSize="14" Click="_170322_Click"/>
+                <Button x:Name="_220322" Content="22/03/2022" HorizontalAlignment="Left" Height="25" Margin="40,219,0,0" VerticalAlignment="Top" Width="105" Background="#FF27E64D" FontFamily="Verdana" FontSize="14" Click="_220322_Click"/>
+
+            </Grid>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
