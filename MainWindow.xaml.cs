@@ -38,17 +38,18 @@ namespace _2do_Parcial_LanzadorGeneral_GZF_12
 
         private void botonProyectos_Click(object sender, RoutedEventArgs e)
         {
-
+            Window1 proyectos = new Window1();
+            proyectos.Show();
         }
 
         private void botonExamen_Click(object sender, RoutedEventArgs e)
         {
-
+            System.Diagnostics.Process.Start("Examen.exe");
         }
 
         private void botonApuntes_Click(object sender, RoutedEventArgs e)
         {
-
+            System.Diagnostics.Process.Start("Apuntes.exe");
         }
     }
 }

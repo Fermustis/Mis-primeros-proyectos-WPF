@@ -1,0 +1,29 @@
+﻿<Window x:Name="Proyectos" x:Class="_2do_Parcial_LanzadorGeneral_GZF_12.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2do_Parcial_LanzadorGeneral_GZF_12"
+        mc:Ignorable="d"
+        Title="Proyectos" Height="450" Width="800">
+    <Grid Background="#FF0E61D0">
+        <StackPanel>
+            <Grid Background="#FF22233A" Height="434">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button x:Name="b1" Content="Grafica de funciones" HorizontalAlignment="Center" Height="25" Margin="0,189,0,0" VerticalAlignment="Top" Width="120" Background="#FF1CE88F" FontFamily="Comic Sans MS" Click="b1_Click"/>
+                <Button x:Name="b2" Content="IGU con SHARP" HorizontalAlignment="Left" Height="25" Margin="45,189,0,0" VerticalAlignment="Top" Width="120" Background="#FF1CE88F" FontFamily="Comic Sans MS" Grid.Column="1" Click="b2_Click"/>
+                <Button x:Name="b3" Content="Interfaz grafica con WPF" HorizontalAlignment="Center" Height="25" Margin="0,189,0,0" VerticalAlignment="Top" Width="160" Background="#FF1CE88F" FontFamily="Comic Sans MS" Grid.Column="2" Click="b3_Click"/>
+                <Button x:Name="b4" Content="Mascota Virtual" HorizontalAlignment="Center" Height="25" Margin="0,189,0,0" VerticalAlignment="Top" Width="100" Background="#FF1CE88F" FontFamily="Comic Sans MS" Grid.Column="3" Click="b4_Click"/>
+            </Grid>
+
+        </StackPanel>
+    </Grid>
+</Window>

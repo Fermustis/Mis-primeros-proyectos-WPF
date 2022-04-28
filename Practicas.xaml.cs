@@ -62,5 +62,36 @@ namespace _2do_Parcial_LanzadorGeneral_GZF_12
         {
             frame1.Navigate(new Page6());
         }
+
+        private void _240322_Click(object sender, RoutedEventArgs e)
+        {
+            frame1.Navigate(new Page7());
+        }
+
+        private void _280322_Click(object sender, RoutedEventArgs e)
+        {
+            frame1.Navigate(new Page8());
+        }
+
+        private void _310322_Click(object sender, RoutedEventArgs e)
+        {
+            frame1.Navigate(new Page9());
+        }
+
+        private void _140322__Click(object sender, RoutedEventArgs e)
+        {
+            frame1.Navigate(new Page10());
+        }
+
+        private void _070422_Click(object sender, RoutedEventArgs e)
+        {
+            frame1.Navigate(new Page11());
+        }
+
+       
+        private void _110422_Click(object sender, RoutedEventArgs e)
+        {
+            frame1.Navigate(new Page12());
+        }
     }
 }
