@@ -44,12 +44,12 @@ namespace _2do_Parcial_LanzadorGeneral_GZF_12
 
         private void botonExamen_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("Examen.exe");
+            System.Diagnostics.Process.Start("Examen 2do parcial GZF_8CM12.exe");
         }
 
         private void botonApuntes_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start("Apuntes.exe");
+            System.Diagnostics.Process.Start("2do_Apuntes_GZF.pdf");
         }
     }
 }
